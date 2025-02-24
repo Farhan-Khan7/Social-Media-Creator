@@ -9,14 +9,12 @@ html body{
     font-family: Arial, Helvetica, sans-serif;
 }
 #nav{
-    /* background-color: wheat; */
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
 }
 #nav-logo{
-    /* background-color: white; */
     width: fit-content;
 }
 #nav-option{
@@ -26,7 +24,6 @@ html body{
     text-align: center;
     align-items: center;
     gap: 30px;
-    /* background-color: yellow; */
 }
 #nav-option button{
     border-radius: 50px;
