@@ -51,3 +51,106 @@ html body{
     background-color: #b0EC9C;
 }
 
+#hero-section{
+    width: 90vw;
+    height: 95vh;
+    background-color: hsl(180 5% 96%);
+    margin: 0px 70px;
+    border-radius: 25px;
+    display: block;
+    text-align: center;
+}
+
+#img1{
+    height: 20vh;
+    position: absolute;
+    top: 200px;
+    left: 30px;
+}
+#img2{
+    width: 20vw;
+    position: absolute;
+    top: 110px;
+    left: 40%;
+}
+#img3{
+    float: right;
+    width: 17vw;
+    height: 30vh;
+    position: absolute;
+    top: 200px;
+    left: 82%;
+}
+#img4{
+    float: right;
+    width: 17vw;
+    height: 30vh;
+    position: absolute;
+    top: 70%;
+    left: 30px;
+}
+#img5{
+    float: right;
+    /* width: 17vw; */
+    height: 30vh;
+    position: absolute;
+    top: 70%;
+    left: 80%;
+}
+#hero-section h1{
+    /* text-align: center; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 8vw;
+    line-height: 8vw;
+    /* word-spacing: 1vw; */
+    position: absolute;
+    top: 200px;
+    left: 25%;
+}
+#hero-section p{
+    /* text-align: center; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 1.2vw;
+    line-height: 8vw;
+    /* word-spacing: 1vw; */
+    position: absolute;
+    top: 500px;
+    left: 28%;
+    font-weight: 400;
+    word-spacing: 5px;
+}
+#hero-section #input{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    position: absolute;
+    top: 600px;
+    left: 25% ;
+    box-shadow: 0px 0.px 3px black;
+
+}
+input{
+    padding: 15px 0px 15px 20px;
+    font-size: 1.3vw;
+    width: 32vw;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+#hero-section button{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+   font-weight: 500;
+   background-color: #b0EC9C;
+    position: absolute;
+    top: 600px;
+    left: 58% ;
+    padding: 15px 0px 15px 20px;
+    font-size: 1.3vw;
+    width: 15vw;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+#hero-section button:hover{
+    box-shadow: 0px 3px 1px black;
+}
