@@ -173,11 +173,11 @@ input{
     justify-content: space-evenly;
 }
 .user-data h1{
-    font-size: 3vw;
-    font-weight: 300;
+    font-size: 2vw;
+    font-weight: 700;
 
 }
 .user-data p{
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     font-weight: 100;
 }
