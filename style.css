@@ -191,6 +191,10 @@ input{
     display: flex;
     padding: 0px 10px 10px 40px;
 }
+#publish:hover img{
+    scale: 1.05;
+    transition: 0.5s;
+}
 #publish-pics{
     background-color: transparent;
     width: fit-content;
@@ -200,9 +204,11 @@ input{
     align-items: center;
     justify-content: center;
 }
+
 #publish-pics img{
     width: 40vw;
     background-size: cover;
+    transition: 0.5s;
 }
 
 
