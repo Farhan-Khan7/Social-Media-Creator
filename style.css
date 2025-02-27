@@ -190,6 +190,11 @@ input{
     margin: 0px 70px 30px 70px ;
     display: flex;
     padding: 0px 10px 10px 40px;
+    transition: 0.5s;
+}
+#publish:hover{
+    background-color: hsl(255 100% 90%);
+    transition: 0.5s;
 }
 #publish:hover img{
     scale: 1.05;
@@ -296,7 +301,7 @@ input{
 
 }
 #create{
-    background-color:  hsl(8 100% 89%);
+    background-color:  hsl(7 100% 87%);
     /* background-color: black; */
     border-radius: 20px;
     width: 90vw;
@@ -305,6 +310,11 @@ input{
     display: flex;
     /* align-items: self-start */
     padding: 0px 0px 0px 60px;
+    transition: 0.5s;
+}
+#create:hover{
+    background-color:hsl(8 100% 89%);
+    transition: 0.5s;
 }
 #create-content h5{
     /* padding-top: 60px; */
