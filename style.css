@@ -459,9 +459,9 @@ input{
     font-size: 2.3vw;
     padding-top: 10px ;
 }
-#collabrate-engage p{
+.collabrate-engage p{
     font-size: 1.15vw;
-    line-height: 1.25;
+    line-height: 1.30;
     font-weight: 100;
     color: #596463;
     padding-top: 20px;
@@ -494,7 +494,7 @@ input{
 }
 
 #collabrate img{
-    width: 50vw;
+    width: 48vw;
     /* margin: 2%  3%; */
     height: fit-content;
     position: absolute;
@@ -518,4 +518,119 @@ input{
     scale: 1.05;
     transition: 0.5s;
     
+}
+
+
+
+
+
+#analyze-left-main-section{
+    /* background-color: black; */
+    width: 45vw;
+
+}
+#analyze{
+    background-color: hsl(208 100% 88%);
+    /* background-color: black; */
+    border-radius: 20px;
+    width: 90vw;
+    height: 70vh;
+    margin: 0px 70px 30px 70px ;
+    display: flex;
+    /* align-items: self-start */
+    padding: 0px 0px 0px 60px;
+    transition: 0.5s;
+}
+#analyze:hover{
+    background-color:  hsl(207 100% 90%);
+    transition: 0.5s;
+}
+#analyze-content h5{
+    /* padding-top: 60px; */
+    font-size: 1vw;
+    font-weight: lighter;
+    word-spacing: 10px;
+    padding-top: 13%;
+    text-transform: uppercase;
+}
+
+#analyze-content h2{
+    font-size: 1.3vw;
+    font-weight: 500;
+    word-spacing: 7px;
+    font-size: 2.3vw;
+    padding-top: 10px ;
+}
+#analyze-content p{
+    font-size: 1.15vw;
+    line-height: 1.25;
+    font-weight: 100;
+    color: #596463;
+    padding-top: 20px;
+}
+#analyze-content button{
+    background-color: rgb(3, 3, 3);
+    color: white;
+    display: flex;
+    margin: 40px 0px 20px 0px;
+    /* padding-top: 25px; */
+    gap: 10px;
+    width: 12vw;
+    font-weight: 500;
+    font-size: 1.1vw;
+    border-radius: 50px;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+#analyze-content button:hover{
+    background-color: rgb(25, 24, 24);
+    box-shadow: 0px 3px 1px black;
+    transition: 0.1s;
+    /* rotate: -40deg; */
+}
+
+#analyze-content button:hover i{
+    transition: 0.2s;
+    rotate: -40deg;
+}
+
+#analyze-pics{
+    width: fit-content;
+    margin: 2%  3%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#analyze-pics img{
+    width: 43vw;
+    background-size: cover;
+    transition: 0.5s;
+}
+#analyze:hover img{
+    scale: 1.05;
+    transition: 0.5s;
+}
+#mini-images3-paragraph{
+    position: absolute;
+    top: 461%;
+    left: 6%;
+    background-color: transparent;
+    width: fit-content;
+    margin-left: 70px;
+    
+}
+#mini-images3-paragraph p{
+    font-size: 1.2vw;
+    line-height: 2.5vw;
+    
+}
+.mini-images3{
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    width: fit-content;
+    padding: 7px 0px;
 }
