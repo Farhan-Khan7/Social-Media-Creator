@@ -421,14 +421,21 @@ input{
     background-color: hsl(40 100% 83%);
     border-radius: 20px;
     padding-left: 70px;
+    transition: 0.5s;
     
 }
+
 #engage{
     width: 44vw;
     height: 100vh;
     background-color: #b0EC9C;
     border-radius: 20px;
     padding-left: 70px;
+    transition: 0.5s;
+}
+#engage:hover{
+    background-color: hsl(104 69% 86%);
+    transition: 0.5s;
 }
 
 
@@ -495,11 +502,11 @@ input{
 
 }
 #engage img{
-    width: 50vw;
+    width: 48vw;
     /* margin: 2%  3%; */
     height: fit-content;
     position: absolute;
-    left: 49%;
+    left: 50%;
 
 }
 .collabrate-engage img{
@@ -510,4 +517,5 @@ input{
 .collabrate-engage:hover img{
     scale: 1.05;
     transition: 0.5s;
+    
 }
