@@ -461,10 +461,14 @@ input{
 }
 .collabrate-engage p{
     font-size: 1.15vw;
-    line-height: 1.30;
+    line-height: 1.50;
     font-weight: 100;
     color: #596463;
     padding-top: 20px;
+}
+#collabrate h2{
+    line-height: 1;
+
 }
 .collabrate-engage button{
     background-color: rgb(3, 3, 3);
