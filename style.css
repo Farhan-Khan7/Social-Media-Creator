@@ -638,3 +638,40 @@ input{
     width: fit-content;
     padding: 7px 0px;
 }
+
+
+#icon{
+    /* background-color: hsl(209, 88%, 35%); */
+    border-radius: 20px;
+    border: 1px solid black;
+    width: 90vw;
+    height: 35vh;
+    margin: 0px 70px 30px 70px ;
+    display: flex;
+    align-items: center;
+
+}
+
+#content-div{
+    background-color: rgb(130, 76, 76);
+    display: flex;
+    font-size: large;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 30vh;
+    width: 20vw;
+}
+#icons{
+    background-color: rgb(139, 130, 130);
+    height: 30vh;
+    width: 70vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#icons i{
+    width: 30vw;
+    height: 10vh;
+}
