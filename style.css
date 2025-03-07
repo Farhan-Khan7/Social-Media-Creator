@@ -649,9 +649,19 @@ input{
     margin: 0px 70px 30px 70px ;
     display: flex;
     align-items: center;
+    /* justify-content: space-evenly; */
+    padding: 0px 50px 0px 50px;
 
 }
-
+#icon-right-part{
+    background-color: rgb(137, 131, 102);
+    /* height: 30vh; */
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0px;
+}
 #content-div{
     background-color: rgb(130, 76, 76);
     display: flex;
@@ -661,17 +671,48 @@ input{
     align-items: center;
     color: white;
     height: 30vh;
-    width: 20vw;
+    width: 10vw;
 }
 #icons{
     background-color: rgb(139, 130, 130);
-    height: 30vh;
+    /* height: 10vh; */
     width: 70vw;
     display: flex;
-    justify-content: space-around;
+    /* flex-direction: column; */
+    justify-content: space-between;
     align-items: center;
+    margin: 20px;
 }
-#icons i{
-    width: 30vw;
-    height: 10vh;
+.ChannelsSection_linkLogo__toCwB{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid black;
+    justify-content: space-between;
+    background-color: transparent;
+    width: 5vw;
+    height: 11vh;
+
+}#bluesky:hover{
+    width: 5.5vw;
+    height: 12vh;
+    background-color: rgb(9, 212, 212);
+    color: white;
+    transition: 0.1s;
+    box-shadow: 0px 3px 1px black;
+}
+
+#icons-name ul {
+    padding-left: 10px;
+    display: flex;
+    gap: 5px;
+    list-style: none;
+    font-size: 0.7vw;
+}
+#icons-name{
+    display: flex;
+    background-color: rgb(40, 39, 32);
+    width: 77vw;
+    height: 5vh;
+    color: white;
 }
