@@ -654,29 +654,29 @@ input{
 
 }
 #icon-right-part{
-    background-color: rgb(137, 131, 102);
+    /* background-color: rgb(137, 131, 102); */
     /* height: 30vh; */
     width: 70vw;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     margin: 0px;
 }
 #content-div{
-    background-color: rgb(130, 76, 76);
+    /* background-color: rgb(130, 76, 76); */
     display: flex;
     font-size: large;
     font-weight: bold;
     justify-content: center;
     align-items: center;
-    color: white;
+    /* color: white; */
     height: 30vh;
     width: 10vw;
 }
 #icons{
-    background-color: rgb(139, 130, 130);
+    /* background-color: rgb(139, 130, 130); */
     /* height: 10vh; */
-    width: 70vw;
+    width: 74vw;
     display: flex;
     /* flex-direction: column; */
     justify-content: space-between;
@@ -686,20 +686,113 @@ input{
 .ChannelsSection_linkLogo__toCwB{
     display: flex;
     align-items: center;
-    border-radius: 5px;
+    border-radius: 10px;
     border: 1px solid black;
     justify-content: space-between;
     background-color: transparent;
     width: 5vw;
-    height: 11vh;
+    height: 10vh;
+    transition: 0.3s;
 
-}#bluesky:hover{
+}
+#bluesky:hover{
     width: 5.5vw;
-    height: 12vh;
-    background-color: rgb(9, 212, 212);
+    height: 10.5vh;
+    background-color: hsl(211 99% 53%);
     color: white;
-    transition: 0.1s;
+    transition: 0.5s;
     box-shadow: 0px 3px 1px black;
+    cursor: pointer;
+}
+#facebook:hover{
+    width: 5.5vw;
+    height: 10.5vh;
+    background-color: hsl(211 99% 53%);
+    color: white;
+    transition: 0.5s;
+    box-shadow: 0px 3px 1px black;
+    cursor: pointer;
+}
+#google-bussiness-profile:hover{
+    width: 5.5vw;
+    height: 10.5vh;
+    background-color: hsl(220 72% 59%);
+    color: white;
+    transition: 0.5s;
+    box-shadow: 0px 3px 1px black;
+    cursor: pointer;
+}
+#instagram:hover{
+    width: 5.5vw;
+    height: 10.5vh;
+    background-color: hsl(331 98% 47%);
+    color: white;
+    transition: 0.5s;
+    box-shadow: 0px 3px 1px black;
+    cursor: pointer;
+}
+#linkedln:hover{
+    width: 5.5vw;
+    height: 10.5vh;
+    background-color: hsl(213 63% 43%);
+    color: white;
+    transition: 0.5s;
+    box-shadow: 0px 3px 1px black;
+    cursor: pointer;
+}
+#mastodon:hover{
+    width: 5.5vw;
+    height: 10.5vh;
+    background-color: hsl(240 100% 69%);
+    color: white;
+    transition: 0.5s;
+    box-shadow: 0px 3px 1px black;
+    cursor: pointer;
+}
+#pinterest:hover{
+    width: 5.5vw;
+    height: 10.5vh;
+    background-color: hsl(351 100% 45%);
+    color: white;
+    transition: 0.5s;
+    box-shadow: 0px 3px 1px black;
+    cursor: pointer;
+}
+#threads:hover{
+    width: 5.5vw;
+    height: 10.5vh;
+    background-color: hsl(0 0% 0%);
+    color: white;
+    transition: 0.5s;
+    box-shadow: 0px 3px 1px black;
+    cursor: pointer;
+}
+#tiktok:hover{
+    width: 5.5vw;
+    height: 10.5vh;
+    background-color: hsl(0 0% 0%);
+    color: white;
+    transition: 0.5s;
+    box-shadow: 0px 3px 1px black;
+    cursor: pointer;
+}
+#X:hover{
+    width: 5.5vw;
+    height: 10.5vh;
+    background-color: hsl(0 0% 0%);
+    color: white;
+    transition: 0.5s;
+    box-shadow: 0px 3px 1px black;
+    cursor: pointer;
+}
+#youtube:hover{
+    width: 5.5vw;
+    height: 10.5vh;
+    background-color: hsl(0 100% 50%);
+    color: white;
+    transition: 0.5s;
+    box-shadow: 0px 3px 1px black;
+    cursor: pointer;
 }
 
 #icons-name ul {
@@ -711,8 +804,8 @@ input{
 }
 #icons-name{
     display: flex;
-    background-color: rgb(40, 39, 32);
+    /* background-color: rgb(40, 39, 32); */
     width: 77vw;
     height: 5vh;
-    color: white;
+    /* color: white; */
 }
