@@ -814,22 +814,24 @@ input{
 #community-section{
     width: 90vw;
     height: 100vh;
-    background-color: wheat;
+    background-color: hsl(180 5% 96%);
     margin: 0px 70px 30px 70px;
     border-radius: 20px;
 }
 #community-top-section{
     width: 80vw;
     height: 30vh;
-    background-color: yellow;
+    background-color: transparent;
     border-radius: 20px;
-    margin: 0px 0px 30px 70px;
+    margin: 0px 0px 0px 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 #community-top-section h1{
-    
+    word-spacing: 5px;
+    font-size: 3vw;
+    font-weight: 500;
 }
 
 .comunity-btn{
@@ -852,4 +854,13 @@ input{
     background-color: #213130;
     color: #b0EC9C;
     transition: 0.3s;
+}
+
+#community-down-section{
+    width: 80vw;
+    height: 50vh;
+    background-color: hsl(289 100% 87%);
+    border-radius: 20px;
+    margin: 0px 0px 30px 70px;
+
 }
