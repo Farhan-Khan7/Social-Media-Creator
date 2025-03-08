@@ -862,5 +862,7 @@ input{
     background-color: hsl(289 100% 87%);
     border-radius: 20px;
     margin: 0px 0px 30px 70px;
+    display: flex;
+    padding: 20px;
 
 }
