@@ -809,3 +809,47 @@ input{
     height: 5vh;
     /* color: white; */
 }
+/* Complete Icons Section Code */
+
+#community-section{
+    width: 90vw;
+    height: 100vh;
+    background-color: wheat;
+    margin: 0px 70px 30px 70px;
+    border-radius: 20px;
+}
+#community-top-section{
+    width: 80vw;
+    height: 30vh;
+    background-color: yellow;
+    border-radius: 20px;
+    margin: 0px 0px 30px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#community-top-section h1{
+    
+}
+
+.comunity-btn{
+    font-size: 1.3vw;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 50px;
+    font-weight: lighter;
+}
+#creator{
+    background-color: #213130;
+    color: #b0EC9C;
+}
+#small-bussiness:hover{
+    background-color: #213130;
+    color: #b0EC9C;
+    transition: 0.3s;
+}
+#agencies:hover{
+    background-color: #213130;
+    color: #b0EC9C;
+    transition: 0.3s;
+}
