@@ -858,11 +858,47 @@ input{
 
 #community-down-section{
     width: 80vw;
-    height: 50vh;
+    height: 60vh;
     background-color: hsl(289 100% 87%);
     border-radius: 20px;
     margin: 0px 0px 30px 70px;
     display: flex;
+    align-items: center;
     padding: 20px;
 
+}
+#community-down-section-left-part{
+    width: 40vw;
+    /* background-color: yellow; */
+    padding: 20px 20px;
+}
+#community-down-section-left-part h1{
+    font-size: 2vw;
+    font-weight: 500;
+    line-height: 2.5vw;
+}
+#community-down-section-left-part p{
+    margin: 20px 0px;
+    font-size: 1.2vw;
+    line-height: 1.5vw;
+    font-weight: 100;
+}
+#community-down-section-left-part h5{
+    margin-top: 5px;
+    font-size: 1.2vw;
+    line-height: 1.7vw;
+    font-weight: lighter;
+}
+#community-down-section-right-part{
+    background-color: white;
+    width: 50vw;
+    height: 45vh;
+    border-radius: 20px;
+    margin: 0px 30px 0px 0px;
+}
+#community_headline{
+    background-color: yellow;
+    font-size: 1.2vw;
+    font-weight: bold;
+    text-align: center;
 }
