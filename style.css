@@ -895,10 +895,49 @@ input{
     height: 45vh;
     border-radius: 20px;
     margin: 0px 30px 0px 0px;
+    padding: 10px;
 }
-#community_headline{
-    background-color: yellow;
+#community-headline{
+    /* background-color: yellow; */
     font-size: 1.2vw;
     font-weight: bold;
     text-align: center;
+    margin-top: 20px;
+}
+#community-user-section{
+    height: 35vh;
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12px;
+}
+.user{
+    /* background-color: rgb(114, 59, 59); */
+    height: 30vh;
+    width: 13vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user-img{
+    /* background-color: gold; */
+    width: 6vw;
+    height: 12vh;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.user-img img{
+    /* background-color: gold; */
+    width: 6vw;
+    height: 13vh;
+    border-radius: 50%;
+    margin-top: 0px;
+}
+.user-data{
+    /* background-color: gold; */
+    width: 13vw;
+    height: 10vh;
+    border: none;
 }
