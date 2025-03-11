@@ -972,3 +972,39 @@ input{
     background-color: #b0EC9C;
     ;
 }
+#about-team-coworking-01{
+    width: 280px;
+    height: 196px;
+    top: 695%;
+    left: 4.5%;
+}
+#about-team-drinks{
+    width: 300px;
+    height: 200px;
+    top: 690%;
+    left: 23.5%;
+}
+#about-team-beach{
+    width: 372px;
+    height: 200px;
+    top: 695%;
+    left: 43.5%;
+}
+#about-team-brainstorming{
+    width: 120px;
+    height: 180px;
+    top: 690%;
+    left: 68.5%;
+}
+#about-team-coworking-02{
+    width: 280px;
+    height: 196px;
+    top: 693%;
+    left: 77%;
+}
+.about-img{
+    border: 2px solid black;
+    border-radius: 7px;
+    position: absolute;
+
+}
