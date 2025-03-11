@@ -813,7 +813,7 @@ input{
 
 #community-section{
     width: 90vw;
-    height: 100vh;
+    height: 120vh;
     background-color: hsl(180 5% 96%);
     margin: 0px 70px 30px 70px;
     border-radius: 20px;
@@ -940,4 +940,35 @@ input{
     width: 13vw;
     height: 10vh;
     border: none;
+}
+/*  Community section complete*/
+
+#about{
+    background-color: hsl(174 62% 15%);
+    width: 90vw;
+    height: 80vh;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin: 80px 0px 0px 0px;
+    text-align: center;
+}
+#about h1{
+    font-size: 5vw;
+    padding-top: 50px;
+    color: white;
+}
+#about p{
+    font-size: 1.2vw;
+    font-weight: 400;
+    padding-top: 20px;
+    color: white;
+}
+#about button{
+    font-size: 1.2vw;
+    font-weight: 400;
+    padding: 20px 40px;
+    margin-top: 30px ;
+    border-radius: 50px;
+    background-color: #b0EC9C;
+    ;
 }
