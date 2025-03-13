@@ -6,7 +6,7 @@
 html body{
     width: 100%;
     height: 100%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica;
 }
 #nav{
     display: flex;
@@ -160,10 +160,11 @@ input{
     height: 40vh;
     display: flex;
     justify-content: space-evenly;
+    background-color: #3b8522;
     padding: 30px 70px 0px 70px;
 }
 .user-data{
-    width: 25vw;
+    width: 5vw;
     height: 20vh;
     border: 1px solid black;
     border-radius: 20px;
@@ -173,6 +174,7 @@ input{
     justify-content: space-evenly;
 }
 .user-data h1{
+    background-color: yellow;
     font-size: 2vw;
     font-weight: 700;
 
@@ -813,7 +815,7 @@ input{
 
 #community-section{
     width: 90vw;
-    height: 120vh;
+    height: 190vh;
     background-color: hsl(180 5% 96%);
     margin: 0px 70px 30px 70px;
     border-radius: 20px;
@@ -909,9 +911,10 @@ input{
     /* background-color: black; */
     display: flex;
     justify-content: space-between;
+    /* align-items: center; */
     padding-top: 12px;
 }
-.user{
+.communiuty-user{
     /* background-color: rgb(114, 59, 59); */
     height: 30vh;
     width: 13vw;
@@ -935,16 +938,16 @@ input{
     border-radius: 50%;
     margin-top: 0px;
 }
-.user-data{
+.community-user-data{
     /* background-color: gold; */
     width: 13vw;
     height: 10vh;
-    border: none;
+    /* border: 1px solid black; */
 }
 /*  Community section complete*/
 
 #about{
-    background-color: hsl(174 62% 15%);
+    background-color: #213130;
     width: 90vw;
     height: 80vh;
     border-top-left-radius: 20px;
@@ -968,9 +971,18 @@ input{
     font-weight: 400;
     padding: 20px 40px;
     margin-top: 30px ;
+    border: none;
     border-radius: 50px;
     background-color: #b0EC9C;
-    ;
+    cursor: pointer;
+}
+#about button:hover{
+    box-shadow: 0px 3px 1px black;
+    transition: 0.1s;
+}
+#about button:hover i{
+    rotate: -40deg;  
+
 }
 #about-team-coworking-01{
     width: 280px;
@@ -1006,5 +1018,53 @@ input{
     border: 2px solid black;
     border-radius: 7px;
     position: absolute;
+
+}
+#about-down-section{
+    width: 90vw;
+    margin: 100px 0px 30px 70px;
+    /* background-color: gold;   */
+}
+#about-us span{
+    font-size: 1.5vw;
+    color: #3b8522;
+    line-height: 2vw;
+    padding-bottom: 50px;
+}
+#about-content{
+    display: flex; 
+    justify-content: space-between;
+    
+}
+
+
+#about-left h1{
+    font-size: 3vw;
+    font-weight: light;
+    line-height: 4vw;
+    word-spacing: 7px;
+    padding-bottom: 20px;
+}
+#about-left p{
+    color: #213130;
+    font-size: 1.2vw;   
+    font-weight: 100;
+    line-height: 1.5vw;
+}
+#about-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: fit-content;
+}
+#about-right button{
+    font-size: 1.2vw;
+    font-weight: 400;
+    padding: 20px 40px;
+    margin-right: 50px ;
+    border: 1px solid black;
+    border-radius: 50px;
+    /* background-color: #b0EC9C; */
+    cursor: pointer;
 
 }
