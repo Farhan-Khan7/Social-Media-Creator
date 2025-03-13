@@ -914,14 +914,15 @@ input{
     /* align-items: center; */
     padding-top: 12px;
 }
-.communiuty-user{
+.community-user{
     /* background-color: rgb(114, 59, 59); */
     height: 30vh;
     width: 13vw;
     display: flex;
+    text-align: center;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+    align-items:center;
+    justify-content: space-evenly;
 }
 
 .user-img{
