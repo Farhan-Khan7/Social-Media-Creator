@@ -160,12 +160,12 @@ input{
     height: 40vh;
     display: flex;
     justify-content: space-evenly;
-    background-color: #3b8522;
-    padding: 30px 70px 0px 70px;
+    align-items: center;
+    /* padding: 30px 70px 0px 70px; */
 }
 .user-data{
-    width: 5vw;
-    height: 20vh;
+    width: 20vw;
+    height: 15vh;
     border: 1px solid black;
     border-radius: 20px;
     display: flex;
@@ -174,14 +174,14 @@ input{
     justify-content: space-evenly;
 }
 .user-data h1{
-    background-color: yellow;
+    /* background-color: yellow; */
     font-size: 2vw;
-    font-weight: 700;
+    font-weight: lighter;
 
 }
 .user-data p{
-    font-size: 1.2vw;
-    font-weight: 100;
+    font-size: 1.4vw;
+    font-weight: lighter;
 }
 
 #publish{
@@ -933,18 +933,17 @@ input{
     margin-top: 20px;
 }
 .user-img img{
-    /* background-color: gold; */
     width: 6vw;
     height: 13vh;
     border-radius: 50%;
-    margin-top: 0px;
 }
 .community-user-data{
-    /* background-color: gold; */
     width: 13vw;
     height: 10vh;
-    /* border: 1px solid black; */
+    font-weight: lighter;
 }
+
+
 /*  Community section complete*/
 
 #about{
