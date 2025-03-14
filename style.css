@@ -1090,3 +1090,33 @@ input{
 #TotalCustomers h1{
     padding-top: 35px;
 }
+/* complete about section */
+
+#Get-started-section{
+    background-color: #213130;
+    width: 90vw;
+    height: 50vh;
+    border-radius: 20px ;
+    margin: 100px 0px 0px 70px;
+    text-align: center;
+}
+#Get-started-section h1{
+    font-size: 3.5vw;
+    padding-top: 50px;
+    color: white;
+}
+#Get-started-section button{
+    font-size: 1.2vw;
+    font-weight: 400;
+    padding: 20px 40px;
+    margin-top: 40px;
+    border: none;
+    border-radius: 50px;
+    background-color: #b0EC9C;
+    cursor: pointer;
+}
+#Get-started-section p{
+    color: white;
+    font-size: 1.4vw;
+    padding-top: 30px;
+}
