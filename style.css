@@ -1064,7 +1064,28 @@ input{
     margin-right: 50px ;
     border: 1px solid black;
     border-radius: 50px;
-    /* background-color: #b0EC9C; */
     cursor: pointer;
-
+}
+#yearly-data{
+    margin: 80px 0px 0px 0px;
+    display: flex;
+    color:#213130;
+    justify-content: space-evenly;
+    
+}
+.yearly-data-section{
+    width: 18vw;
+    height: 15vh;
+    padding: 7px 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.yearly-data-section p{
+    padding-top: 5px ;
+}
+.yearly-data-section h1{
+    padding-top: 15px;
+}
+#TotalCustomers h1{
+    padding-top: 35px;
 }
