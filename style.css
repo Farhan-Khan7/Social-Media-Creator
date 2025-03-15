@@ -1092,6 +1092,118 @@ input{
 }
 /* complete about section */
 
+#resource-section{
+    width: 90vw;
+    height: 200vh;
+    margin: 0px 0px 30px 70px;
+    border-radius: 20px;
+    background-color: hsl(180 5% 96%);
+}
+#resource-section-content{
+    /* background-color: yellow; */
+    width: fit-content;
+    font-size: 1.4vw;
+    line-height: 3vw;
+    font-weight: 100;
+    padding: 70px 40px;
+}
+#resource-section-content h1{
+    font-weight: 100;
+}
+#resource-section-content h5{
+    font-weight: 100;
+    text-transform: uppercase;
+}
+#resource-section-content p{
+    font-weight: 100;
+    font-size: 1.2vw;
+}
+#multiple-div-section{
+    width: 85vw;
+    height: 150vh;
+    margin: 0px 0px 30px 35px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+}
+#resource-left-section{
+    width: 30vw;
+    height: 150vh;
+    /* background-color: aquamarine; */
+}
+#resource-left-section-upper-divs{
+    width: 28vw;
+    height: 75vh;
+    border-radius: 20px;
+    background-color: hsl(105 68% 77%);
+
+}
+#resource-left-section-lower-divs{
+    width: 28vw;
+    height: 50vh;
+    border-radius: 20px;
+    margin-top: 20px;
+    background-color: hsl(338 78% 87%);
+
+}
+
+#resource-right-section{
+    width: 56vw;
+    height: 150vh;
+    /* background-color: rgb(127, 255, 165); */
+}
+
+#resource-right-section-upper-divs{
+    width: 100%;
+    height: 35vh;
+    border-radius: 20px;
+    background-color:hsl(253 100% 88%);
+}
+
+#resource-right-section-lower-divs{
+    width: 100%;
+    height: 90vh;
+    border-radius: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #213130; */
+}
+#resource-left-section-left-divs{
+    width: 23vw;
+    height: 90vh;
+    border-radius: 20px;
+    /* margin-top: 20px; */
+    background-color: hsl(174 64% 77%);
+}
+#resource-right-section-right-divs{
+    width: 31vw;
+    height: 90vh;
+    border-radius: 20px;
+    /* margin-top: 20px; */
+    background-color: hsl(25 100% 83%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #Get-started-section{
     background-color: #213130;
     width: 90vw;
