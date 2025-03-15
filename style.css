@@ -1134,7 +1134,7 @@ input{
 }
 #resource-left-section-upper-divs{
     width: 28vw;
-    height: 75vh;
+    height: 70vh;
     border-radius: 20px;
     background-color: hsl(105 68% 77%);
 
@@ -1172,14 +1172,14 @@ input{
 }
 #resource-left-section-left-divs{
     width: 23vw;
-    height: 90vh;
+    height: 85vh;
     border-radius: 20px;
     /* margin-top: 20px; */
     background-color: hsl(174 64% 77%);
 }
 #resource-right-section-right-divs{
     width: 31vw;
-    height: 90vh;
+    height: 85vh;
     border-radius: 20px;
     /* margin-top: 20px; */
     background-color: hsl(25 100% 83%);
