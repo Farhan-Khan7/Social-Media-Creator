@@ -1094,7 +1094,7 @@ input{
 
 #resource-section{
     width: 90vw;
-    height: 200vh;
+    height: 170vh;
     margin: 0px 0px 30px 70px;
     border-radius: 20px;
     background-color: hsl(180 5% 96%);
@@ -1105,12 +1105,13 @@ input{
     font-size: 1.4vw;
     line-height: 3vw;
     font-weight: 100;
-    padding: 70px 40px;
+    margin: 40px 0px 30px 30px;
 }
 #resource-section-content h1{
     font-weight: 100;
 }
 #resource-section-content h5{
+    padding-top: 50px;
     font-weight: 100;
     text-transform: uppercase;
 }
