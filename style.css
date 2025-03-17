@@ -1259,7 +1259,61 @@ input{
     width: 100%;
     height: 35vh;
     border-radius: 20px;
-    background-color:hsl(253 100% 88%);
+    background-color: hsl(291 100% 92%);
+    display: flex;
+    justify-content: space-between;
+}
+#resource-right-section-upper-divs-left-part{
+    width: 27vw;
+}
+#resource-right-section-upper-divs-content{
+    /* background-color: #213130; */
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 20px;
+    font-size: 1.5vw;
+    font-weight: lighter;
+    align-items: center;
+}
+#resource-right-section-upper-divs-content i{
+    border: 1px solid black;
+    padding: 7px;
+    border-radius: 50px;
+    transition: 0.5s;
+    font-weight: lighter;
+    /* margin-left: 20px; */
+}
+#resource-right-section-upper-divs-content h4{
+    font-size: 1.7vw;
+    font-weight: lighter;
+}
+#resource-right-section-upper-divs p{
+    color: #213130;
+    padding-left: 20px;
+    font-size: 1.2vw;
+    line-height: 1.5vw;
+}
+#resource-right-section-upper-divs img{
+    padding: 0px 100px 0px 0px;
+    width: 27vw;
+    height: 34vh;
+    transition: 0.5s;
+    /* rotate: 4deg; */
+}
+#resource-right-section-upper-divs:hover{
+    background-color: hsl(289 100% 95%);
+    transition: 0.3s;
+    cursor: pointer;
+}
+#resource-right-section-upper-divs:hover img{
+    width: 28vw;
+    height: 35vh;
+}
+#resource-right-section-upper-divs:hover i{
+    background-color: #213130;
+    color: white;
+    rotate: -45deg;
+    transition: 0.5s;
 }
 
 #resource-right-section-lower-divs{
