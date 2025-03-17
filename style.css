@@ -1140,9 +1140,10 @@ input{
     height: 70vh;
     border-radius: 20px;
     background-color: hsl(105 68% 77%);
+    transition: 0.5s;
+    
 
 }
-
 #resource-left-section-upper-divs-content{
     /* background-color: #213130; */
     display: flex;
@@ -1173,6 +1174,11 @@ input{
     width: 27vw;
     height: 50vh;
     transition: 0.5s;
+}
+#resource-left-section-upper-divs:hover{
+    background-color: hsl(104 69% 86%);
+    transition: 0.3s;
+    cursor: pointer;
 }
 #resource-left-section-upper-divs:hover img{
     width: 28vw;
