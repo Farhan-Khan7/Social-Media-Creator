@@ -1195,9 +1195,59 @@ input{
     height: 50vh;
     border-radius: 20px;
     margin-top: 20px;
-    background-color: hsl(338 78% 87%);
+    background-color: hsl(7 100% 87%);
+    transition: 0.5s;
 
 }
+#resource-left-section-lower-divs-content{
+    /* background-color: #213130; */
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 20px;
+    font-size: 1.5vw;
+    font-weight: lighter;
+    align-items: center;
+}
+#resource-left-section-lower-divs-content i{
+    border: 1px solid black;
+    padding: 7px;
+    border-radius: 50px;
+    transition: 0.5s;
+    font-weight: lighter;
+    /* margin-left: 20px; */
+}
+#resource-left-section-lower-divs-content h4{
+    font-size: 1.7vw;
+    font-weight: lighter;
+}
+#resource-left-section-lower-divs p{
+    color: #213130;
+    padding-left: 20px;
+    font-size: 1.2vw;
+    line-height: 1.5vw;
+}
+#resource-left-section-lower-divs img{
+    padding: 48px 10px 0px 100px;
+    width: 20vw;
+    height: 30vh;
+    transition: 0.5s;
+}
+#resource-left-section-lower-divs:hover{
+    background-color: hsl(8 100% 89%);
+    transition: 0.3s;
+    cursor: pointer;
+}
+#resource-left-section-lower-divs:hover img{
+    width: 21vw;
+    height: 31vh;
+}
+#resource-left-section-lower-divs:hover i{
+    background-color: #213130;
+    color: white;
+    rotate: -45deg;
+    transition: 0.5s;
+}
+
 
 #resource-right-section{
     width: 56vw;
