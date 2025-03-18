@@ -1316,7 +1316,7 @@ input{
     transition: 0.5s;
 }
 
-#resource-right-section-lower-divs{
+#resource-right-section-lower-left-divs{
     width: 100%;
     height: 90vh;
     border-radius: 20px;
@@ -1325,14 +1325,59 @@ input{
     justify-content: space-between;
     /* background-color: #213130; */
 }
-#resource-left-section-left-divs{
+#resource-left-section-lower-left-divs{
     width: 23vw;
     height: 85vh;
     border-radius: 20px;
-    margin-right: 20px;
-    background-color: hsl(174 64% 77%);
+    /* margin-right: 20px; */
+    background-color: hsl(175 63% 86%);
+    transition: 0.5s;
 }
-#resource-right-section-right-divs{
+#resource-left-section-lower-left-divs img{
+    margin-top: 75px;
+    width: 22.5vw;
+    height: 50vh;
+    transition: 0.5s;
+}
+#resource-left-section-lower-left-divs i{
+    border: 1px solid black;
+    padding: 7px;
+    border-radius: 50px;
+    transition: 0.5s;
+    font-weight: lighter;
+    /* margin-left: 20px; */
+}
+#resource-left-section-lower-left-divs h4{
+    font-size: 1.7vw;
+    font-weight: lighter;
+}
+#resource-left-section-lower-left-divs p{
+    color: #213130;
+    padding-left: 20px;
+    font-size: 1.2vw;
+    line-height: 1.5vw;
+}
+#resource-left-section-lower-left-divs:hover{
+    background-color: hsl(174 65% 91%);
+    cursor: pointer;
+
+}
+#resource-left-section-lower-left-divs:hover img{
+    width: 23vw;
+    height: 51vh;
+}
+#resource-left-section-lower-left-divs:hover i{
+    background-color: #213130;
+    color: white;
+    rotate: -45deg;
+    transition: 0.5s;
+}
+
+
+
+
+
+#resource-right-section-lower-right-divs{
     width: 31vw;
     height: 85vh;
     border-radius: 20px;
@@ -1340,6 +1385,46 @@ input{
     background-color: hsl(25 100% 83%);
 }
 
+#resource-right-section-lower-right-divs img{
+    margin-top: 75px;
+    margin-left: 30px;
+    width: 25vw;
+    height: 50vh;
+    transition: 0.5s;
+}
+#resource-right-section-lower-right-divs i{
+    border: 1px solid black;
+    padding: 7px;
+    border-radius: 50px;
+    transition: 0.5s;
+    font-weight: lighter;
+    /* margin-left: 20px; */
+}
+#resource-right-section-lower-right-divs h4{
+    font-size: 1.7vw;
+    font-weight: lighter;
+}
+#resource-right-section-lower-right-divs p{
+    color: #213130;
+    padding-left: 20px;
+    font-size: 1.1vw;
+    line-height: 1.5vw;
+}
+#resource-right-section-lower-right-divs:hover{
+    background-color: hsl(174 65% 91%);
+    cursor: pointer;
+
+}
+#resource-right-section-lower-right-divs:hover img{
+    width: 26vw;
+    height: 51vh;
+}
+#resource-right-section-lower-right-divs:hover i{
+    background-color: #213130;
+    color: white;
+    rotate: -45deg;
+    transition: 0.5s;
+}
 
 
 
