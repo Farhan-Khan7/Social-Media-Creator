@@ -1372,17 +1372,13 @@ input{
     rotate: -45deg;
     transition: 0.5s;
 }
-
-
-
-
-
 #resource-right-section-lower-right-divs{
     width: 31vw;
     height: 85vh;
     border-radius: 20px;
     /* margin-top: 20px; */
-    background-color: hsl(25 100% 83%);
+    background-color: hsl(35 100% 80%);
+    transition: 0.5s;
 }
 
 #resource-right-section-lower-right-divs img{
@@ -1411,7 +1407,7 @@ input{
     line-height: 1.5vw;
 }
 #resource-right-section-lower-right-divs:hover{
-    background-color: hsl(174 65% 91%);
+    background-color: hsl(35 100% 83%) ;
     cursor: pointer;
 
 }
