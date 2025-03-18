@@ -1459,7 +1459,7 @@ input{
 #main-div-footer{
     background-color: #283E3B;
     /* width: 100%; */
-    /* height: 150vh; */
+    height: 70vh;
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
     display: flex;
@@ -1486,13 +1486,60 @@ input{
     line-height: 2vw;
     cursor: pointer;
 }
+#footer-logo-icon-part{
+    display: flex;
+    justify-content: space-between;
+    background-color: #283E3B;
+    /* align-items: baseline; */
+}
 #footer-logo{
     background-color: #283E3B;
-    height: 50vh;
-    padding: 0px 50px;
+    height: 30vh;
+    padding: 0px 30px;
 }
 #footer-logo svg{
     /* background-color: #31ffe3; */
     width: 30vw;
     color: #b0EC9C
+}
+#footer-icons-section{
+    /* background-color: #b0EC9C; */
+    width: 22vw;
+    height: 10vh;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+#footer-icons{
+    /* background-color: #213130; */
+    width: 22vw;
+    height: 7vh;
+    display: flex;
+    justify-content: space-around;
+   
+}
+#footer-icons i{
+    color: white;
+    /* height: 50vh; */
+    font-size: 2.5vw;
+    font-weight: lighter;
+}
+#copy-right{
+    color: white;
+}
+#copy-right a{
+    /* background-color: #3b8522; */
+    color:white;
+    height: 4vh;
+    width: 22vw;
+}
+#footer-line{
+    width: 85vw;
+    height: 0.2vh;
+    background-color: white;
+    position: absolute;
+    top: 1120%;
+    margin-left: 100px;
 }
